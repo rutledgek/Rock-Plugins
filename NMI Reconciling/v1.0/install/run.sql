@@ -701,7 +701,7 @@ VALUES
 
 Declare @ParentId Int = (Select [Id] From Page Where [Guid] = '8c586b41-5861-46c3-91df-d2f2c2e5046c')
 
-Declare @HTMLCONTENT Varchar(max) = '{[ batchlist daysback:''21'' depositaccountname:''Deposit Account'' depositaccountglcode:'''']}'
+Declare @HTMLCONTENTCONTENT Varchar(max) = '{[ batchlist daysback:''21'' depositaccountname:''Deposit Account'' depositaccountglcode:'''']}'
 
 
 Insert Into Page 
