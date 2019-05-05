@@ -725,4 +725,4 @@ declare @newblock as Int = (Select SCOPE_IDENTITY())
 Insert Into HTMLContent 
 ([BlockId],[Version],[Content],[IsApproved],[ApprovedDateTime],[Guid],[CreatedDateTime],[ModifiedDateTime])
 VALUES 
-(@newblock,1,@HTMLCONTENT,1,GetDate(),@HTMLContent,GetDate(),GetDate())
+(@newblock,1,@HTMLCONTENTCONTENT,1,GetDate(),@HTMLContent,GetDate(),GetDate())
